@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+body {
+    height: 100%;
+    background-color: #000;
+    font-family: 'Aldrich', sans-serif;
+}
+
+.invaders-wrapper {
+    position: relative;
+}
+
+.game-settings {
+    height: 50px;
+    color: white;
+    padding-top: 0.5em;
+}
+
+.invader-container {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+}
+
+.game-area {
+    width: 700px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px dotted grey;
+    height: 100%;
+}
+
+.defender {
+    position: absolute;
+    bottom: 0;
+}
+
+.invader-bullet {
+    width: 3px;
+    height: 7px;
+    background-color: red;
+    position: absolute;
+}
+
+.defenderBullet {
+    width: 3px;
+    height: 7px;
+    background-color: green;
+    position: absolute;
+}
+
+.gameOver {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    z-index: 10;
+}
+
+.gameOver h1 {
+    vertical-align: middle;
+    font-size: 4em;
+    margin-top: 5em;
+    text-align: center;
+}
+
+/*invaders*/
+
+.first {
+     background: url('images/level1-cl.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.second {
+    background: url('images/level1-cl.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.third {
+    background: url('images/level2-cl.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.fourth {
+    background: url('images/level3-cl.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.fifth {
+    background: url('images/level3-cl.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+/*projectiles*/
+
+.inv-projectile {
+    width: 6px;
+    height: 10px;
+    background-size: cover;
+    background-image: url('images/inv-pr.png');
+    position: absolute;
+}
+
+.def-projectile {
+    width: 2px;
+    height: 8px;
+    background: #fff;
+    position: absolute;
+}
+
+/* game settings */
+
+.settings-text {
+    text-transform: uppercase;
+    font-size: 80%;
+}
+
+.inline-svgs {
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* other classes */
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
