@@ -79,28 +79,32 @@ body {
 /*invaders*/
 
 .first {
-     background: url('images/level1-cl.png');
+    /* background: url('images/level1-cl.png');*/
+    background: url('images/red.png');
     width: 100%;
     height: 100%;
     background-size: cover;
 }
 
 .second {
-    background: url('images/level1-cl.png');
+    /*background: url('images/level1-cl.png');*/
+    background: url('images/purple.jpg');
     width: 100%;
     height: 100%;
     background-size: cover;
 }
 
 .third {
-    background: url('images/level2-cl.png');
+    /*background: url('images/level2-cl.png');*/
+    background: url('images/green.png');
     width: 100%;
     height: 100%;
     background-size: cover;
 }
 
 .fourth {
-    background: url('images/level3-cl.png');
+    /*background: url('images/level3-cl.png');*/
+    background: url('images/blue.png');
     width: 100%;
     height: 100%;
     background-size: cover;
